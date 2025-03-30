@@ -26,12 +26,22 @@ h1 {
 /* Global styles */
 
 body {
-  font-family: var(--primary-font);
+  font-family: var(--primary-color);
 } 
 
 h1,
 h2,
 h3 {
   font-family: var(--secondary-font);
-  color: var(--primary-color);
+  color: var(--primary-font);
 }
+
+header {
+	background-color: #555; /*dark grey*/
+	padding: 20px 0px;
+}
+.container {
+	margin: 0 auto;
+	width: 960px;
+}
+
