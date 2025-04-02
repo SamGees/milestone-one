@@ -2,46 +2,51 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* Original indiviualised colour and font formatting now replaced with CSS Variables */ 
-/* body {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-
-h1 { 
-  font-family: "Courier Prime", monospace;
-  font-weight: 400;
-  font-style: normal;
-} */
-
-/* CSS Variables */
-:root {
-  --primary-font: "Montserrat", sans-serif;
-  --secondary-font: "Courier Prime", monospace;
-  --primary-color: #acdef4;   /* #808080; trolley grey */
-}
-
-/* Global styles */
-
 body {
-  font-family: var(--primary-color);
-} 
 
-h1,
+
+  /* CSS Variables */
+ /* :root {
+	--primary-font: "Montserrat", sans-serif, whatever;
+	--secondary-font: "Courier Prime", monospace;
+	--primary-color: #75FFFF;  
+} */
+}
+/* h1,
 h2,
 h3 {
-  font-family: var(--secondary-font);
-  color: var(--primary-font);
-}
+ font-family: var(--secondary-font);
+ color: var(--primary-font);
+} */
 
-header {
-	background-color: #555; /*dark grey*/
-	padding: 20px 0px;
+ header {
+	background-color: #68685E; /* Granite Gray */
+	padding: 20px 0px; 
 }
 .container {
 	margin: 0 auto;
 	width: 960px;
 }
 
+
+ul#nav li{
+	text-align:center; 
+	display:inline;
+	margin: 0 70px 0 10px;
+	font-size: 1.1em;
+	font-weight: bold;
+	font-family: 'Paytone One', sans-serif;
+	color:#75FFFF;  /* Electric Blue */ 
+  /* color: var(--primary-color); */
+	}
+
+	ul#nav li a {
+    font-family: "Montserrat", sans-serif, whatever;
+    text-decoration: none;
+    color: #FFF; /* White*/
+    } 
+
+	ul#nav li a:hover {
+		color: #9FF;
+		text-decoration: underline;
+		}
