@@ -50,3 +50,13 @@ ul#nav li{
 		color: #9FF;
 		text-decoration: underline;
 		}
+	
+	/* Permanent change of colour to grey when a link has been clicked */
+	ul#nav li a:visited{
+	color:#999;   
+	}
+
+	/* Slight change of colour whilst a link is being clicked */
+	ul#nav li a:active {
+		color:#BBF2E5;
+		}
