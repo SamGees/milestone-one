@@ -51,6 +51,52 @@ header {
   	margin-right: auto;
 } 
 
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+} 
+
+.others:hover .img-fluid {
+  opacity: 0.3;
+}
+.others:hover .middle {
+  opacity: 1;
+}
+
+
+
+.nature:hover .img-fluid {
+  opacity: 0.3;
+}
+
+.nature:hover .middle {
+  opacity: 1;
+}
+
+
+.people:hover .img-fluid {
+  opacity: 0.3;
+}
+
+.people:hover .middle {
+  opacity: 1;
+}
+
+
+
+.scapes:hover .img-fluid {
+  opacity: 0.3;
+}
+
+.scapes:hover .middle {
+  opacity: 1;
+}
 /*
 ul#nav li{
 	text-align:center; 
