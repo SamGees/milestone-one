@@ -26,6 +26,17 @@
   text-decoration: none;
   color: #FFF; /* White*/
   }
+
+/* Underline and change colour to electric blue when cursor hovers over a link on Navbar */
+.nav-item a:hover {
+  	color: #9FF;
+		text-decoration: underline;
+		}
+
+/* Slight change of colour to a lighter hue whilst a link is being clicked */
+.nav-item a:active {
+		color:#BBF2E5;
+		}
 /*
 ul#nav li{
 	text-align:center; 
