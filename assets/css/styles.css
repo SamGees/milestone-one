@@ -97,35 +97,31 @@ header {
 .scapes:hover .middle {
   opacity: 1;
 }
-/*
-ul#nav li{
-	text-align:center; 
-	display:inline;
-	margin: 0 70px 0 10px;
-	font-size: 1.1em;
-	font-weight: bold;
-	font-family: 'Paytone One', sans-serif;
-	color:#75FFFF;  /* Electric Blue */ 
-  /* color: var(--primary-color); */
-	}
 
-	ul#nav li a {
-    font-family: "Montserrat", sans-serif, whatever;
-    text-decoration: none;
-    color: #FFF; /* White*/
-    } 
+.text-others {
+  background-color: #75FFFF;
+  color: #68685E;
+  font-size: 20px;
+  padding: 10px 20px;
+}
 
-	ul#nav li a:hover {
-		color: #9FF;
-		text-decoration: underline;
-		}
-	
-	/* Permanent change of colour to grey when a link has been clicked */
-	ul#nav li a:visited{
-	color:#999;   
-	}
+.text-nature {
+  background-color: #75FFFF;
+  color: #68685E;
+  font-size: 20px;
+  padding: 10px 20px;
+}
 
-	/* Slight change of colour whilst a link is being clicked */
-	ul#nav li a:active {
-		color:#BBF2E5;
-		}
+.text-people {
+  background-color: #75FFFF;
+  color: #68685E;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+.text-scapes {
+  background-color: #75FFFF;
+  color: #68685E;
+  font-size: 20px;
+  padding: 10px 20px;
+}
