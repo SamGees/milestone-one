@@ -131,6 +131,12 @@ h2 {
 	padding: 70px;
 }
 
+/* aligns footer text */
 .info {
+	text-align: center;
+}
+
+/* aligns 'about' text */
+.blurb h1, p, h3 {
 	text-align: center;
 }
