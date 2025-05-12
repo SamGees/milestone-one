@@ -2,33 +2,31 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-body {
-
-
-  /* CSS Variables */
- /* :root {
-	--primary-font: "Montserrat", sans-serif, whatever;
-	--secondary-font: "Courier Prime", monospace;
-	--primary-color: #75FFFF;  
-} */
-}
-/* h1,
-h2,
-h3 {
- font-family: var(--secondary-font);
- color: var(--primary-font);
-} */
 
  header {
 	background-color: #68685E; /* Granite Gray */
 	padding: 20px 0px; 
 }
 .container {
-	margin: 0 auto;
-	width: 960px;
+	background-color: #68685E; /* Granite Gray */
+	padding: 50px 100px; 
 }
 
+/* Change page name only on navbar to electric blue and different font */
+ .navbar-brand {
+	font-size: 1.1em;
+	font-weight: bold;
+	font-family: 'Paytone One', sans-serif;
+	color:#75FFFF;  /* Electric Blue */
+} 
 
+/* Change navbar headings to white font and different font */
+.nav-link{
+  font-family: "Montserrat", sans-serif, whatever;
+  text-decoration: none;
+  color: #FFF; /* White*/
+  }
+/*
 ul#nav li{
 	text-align:center; 
 	display:inline;
