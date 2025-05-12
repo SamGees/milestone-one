@@ -125,3 +125,8 @@ header {
   font-size: 20px;
   padding: 10px 20px;
 }
+
+h2 {
+	text-align: center;
+	padding: 70px;
+}
