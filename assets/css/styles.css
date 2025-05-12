@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
- header {
+header {
 	background-color: #68685E; /* Granite Gray */
 	padding: 20px 0px; 
 }
@@ -37,6 +37,20 @@
 .nav-item a:active {
 		color:#BBF2E5;
 		}
+
+.container,
+.row {
+    border: 2px solid black;
+}
+
+.col-12 {
+    border: 10px solid #68685E;
+    background-color: lightgray;
+    display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+} 
+
 /*
 ul#nav li{
 	text-align:center; 
