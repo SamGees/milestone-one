@@ -129,6 +129,7 @@ header {
 h2 {
 	text-align: center;
 	padding: 70px;
+  font: fantasy;
 }
 
 /* aligns footer text */
